@@ -22,39 +22,41 @@
       <div class="absolute inset-0 bg-matcha/10 blur-3xl rounded-full scale-90"></div>
 
       <!-- CARD -->
-      <div class="relative bg-white p-4 md:p-6 rounded-[2.5rem] shadow-2xl shadow-matcha/10 border border-white/50 rotate-1 hover:rotate-0 transition-all duration-500">
+      <div class="relative bg-white p-4 md:p-6 rounded-[2.5rem] shadow-2xl shadow-matcha/10 border border-white/50 rotate-1 hover:rotate-0 transition-all duration-500 overflow-hidden">
 
         <!-- MAP -->
-        <div class="overflow-hidden rounded-[2rem]">
+        <div class="overflow-hidden rounded-[2rem] relative">
 
           <iframe
             src="https://maps.google.com/maps?q=-7.9470823,112.0288922&z=15&output=embed"
-            class="w-full h-[350px] md:h-[500px] border-0"
+            class="w-full h-[300px] md:h-[500px] border-0"
             loading="lazy"
             allowfullscreen=""
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
 
-        </div>
+        <!-- INFO CARD -->
+       <div class="flex justify-center px-4 pt-6">
 
-        <!-- FLOATING INFO -->
-        <div class="absolute bottom-10 left-1/2 -translate-x-1/2 bg-white/90 backdrop-blur-md px-6 py-4 rounded-2xl shadow-xl border border-white/50 text-center">
+          <div class="w-full max-w-sm bg-white/95 backdrop-blur-md px-6 py-5 rounded-[1.8rem] shadow-2xl border border-white/50 text-center">
 
-          <p class="font-bold text-matcha text-sm md:text-base">
-            Dapur Mbak Yussi
-          </p>
+            <p class="font-bold text-matcha text-base md:text-lg">
+              Dapur Mbak Yussi
+            </p>
 
-          <p class="text-xs md:text-sm text-gray-500 mb-3">
-            Bulurejo, Kandat, Kediri
-          </p>
+            <p class="text-sm text-gray-500 mb-4">
+              Bulurejo, Kandat, Kediri
+            </p>
 
-          <a
-            href="https://www.google.com/maps/dir/?api=1&destination=-7.9470823,112.0288922"
-            target="_blank"
-            class="inline-flex items-center gap-2 px-5 py-2.5 bg-matcha text-white rounded-full text-sm font-bold hover:bg-matchaLight transition-all"
-          >
-            📍 Petunjuk Arah
-          </a>
+            <a
+              href="https://www.google.com/maps/dir/?api=1&destination=-7.9470823,112.0288922"
+              target="_blank"
+              class="inline-flex items-center gap-2 px-6 py-3 bg-matcha text-white rounded-full text-sm font-bold hover:bg-matchaLight transition-all"
+            >
+              📍 Petunjuk Arah
+            </a>
+
+          </div>
 
         </div>
 
