@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.glass-nav {
+  background: rgba(250, 250, 249, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.price-badge {
+  background: linear-gradient(
+    135deg,
+    #2f4f3e 0%,
+    #4a7a61 100%
+  );
+}

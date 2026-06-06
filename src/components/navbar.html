@@ -1,0 +1,52 @@
+<header class="fixed top-0 left-0 w-full z-50 px-6 py-4">
+
+  <nav class="max-w-7xl mx-auto h-16 px-8 flex items-center justify-between glass-nav border border-white/20 shadow-sm rounded-2xl md:rounded-full">
+
+    <span class="font-bold tracking-tighter text-2xl text-matcha italic">
+      warung <span class="text-gray-900 not-italic">mbakyussi.</span>
+    </span>
+
+    <div class="hidden md:flex gap-10 text-sm font-semibold text-gray-600">
+      <a href="#hero" class="hover:text-matcha transition-colors">Home</a>
+      <a href="#menuSection" class="hover:text-matcha transition-colors">Menu Sarapan</a>
+      <a href="#catering" class="hover:text-matcha transition-colors">Catering</a>
+      <a href="#contact" class="hover:text-matcha transition-colors">Lokasi</a>
+    </div>
+
+    <a
+      href="https://wa.me/6285649080049"
+      target="_blank"
+      class="hidden md:block bg-matcha text-white px-6 py-2.5 rounded-full text-sm font-bold hover:bg-matchaLight transition-all"
+    >
+      Pesan Sekarang
+    </a>
+
+    <button id="hamburger" class="md:hidden p-2 text-matcha">
+      <svg xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor">
+
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M4 6h16M4 12h16m-7 6h7"
+        />
+      </svg>
+    </button>
+
+  </nav>
+
+  <div
+    id="mobileMenu"
+    class="hidden absolute top-24 left-6 right-6 bg-white rounded-2xl shadow-2xl p-8 flex flex-col gap-6 text-center font-bold text-gray-700 border border-gray-100"
+  >
+    <a href="#hero" class="mobile-link">Home</a>
+    <a href="#menuSection" class="mobile-link">Menu Sarapan</a>
+    <a href="#catering" class="mobile-link">Catering</a>
+    <a href="#contact" class="mobile-link">Lokasi</a>
+  </div>
+
+</header>

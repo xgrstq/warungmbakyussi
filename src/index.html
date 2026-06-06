@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>warungmbakyussi | Sarapan & Catering</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+            serif: ['Playfair Display', 'serif'],
+          },
+          colors: {
+            matcha: "#2f4f3e",
+            matchaLight: "#4a7a61",
+            matchaSoft: "#f2f7f3",
+            offwhite: "#fafaf9",
+            accent: "#e67e22"
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/globals.css">
+  <link rel="stylesheet" href="./assets/css/components.css">
+</head>
+
+<body class="bg-offwhite text-gray-800 font-sans">
+
+  <div id="navbar"></div>
+
+  <main>
+    <div id="hero"></div>
+    <div id="menu"></div>
+    <div id="catering"></div>
+    <div id="contact"></div>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/navbar.js"></script>
+  <script src="./assets/js/menu.js"></script>
+</body>
+</html>
